@@ -21,9 +21,8 @@ namespace Forms.HelloWorld
         {
             AppCenter.Start("android=01a2a3a0-a469-4f0c-b867-c2a0bf991b53;" +
                      "uwp={Your UWP App secret here};" +
-                     "ios={Your iOS App secret here}",
+                     "ios={2db913e2-c88f-4314-8d2e-7e48da0775ea;}",
                      typeof(Analytics), typeof(Crashes));
-            AppCenter.Start("android=01a2a3a0-a469-4f0c-b867-c2a0bf991b53;" + "uwp={Your UWP App secret here};" + "ios={Your iOS App secret here}", typeof(Analytics), typeof(Crashes));
 
         }
 
