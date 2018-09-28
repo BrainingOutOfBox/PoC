@@ -10,10 +10,10 @@ echo "Building NUnit test projects:"
 find $APPCENTER_SOURCE_DIRECTORY -regex '.*Test.*\.csproj' -exec msbuild {} \;
 echo
 echo "Compiled projects to run NUnit tests:"
-find $APPCENTER_SOURCE_DIRECTORY -regex '.*bin.*Test.*\.dll' -exec echo {} \;
+find $APPCENTER_SOURCE_DIRECTORY -regex '.*bin.*HelloWorld.Test.*\.dll' -exec echo {} \;
 echo
 echo "Running NUnit tests:"
-find $APPCENTER_SOURCE_DIRECTORY -regex '.*bin.*Test.*\.dll' -exec nunit3-console {} \;
+find $APPCENTER_SOURCE_DIRECTORY -regex '.*bin.*HelloWorld.Test.*\.dll' -exec nunit3-console {} \;
 echo
 echo "NUnit tests result:"
 pathOfTestResults=$(find $APPCENTER_SOURCE_DIRECTORY -name 'TestResult.xml')
