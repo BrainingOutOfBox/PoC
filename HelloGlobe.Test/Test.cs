@@ -4,7 +4,7 @@ using Forms.HelloWorld;
 
 namespace HelloGlobe.Test
 {
-    [TestFixture()]
+    [TestFixture]
     public class Test
     {
         [Test]
