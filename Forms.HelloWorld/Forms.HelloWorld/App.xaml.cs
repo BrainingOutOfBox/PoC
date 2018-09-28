@@ -1,4 +1,7 @@
-﻿using System;
+﻿using Microsoft.AppCenter;
+using Microsoft.AppCenter.Analytics;
+using Microsoft.AppCenter.Crashes;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -16,7 +19,12 @@ namespace Forms.HelloWorld
 
         protected override void OnStart()
         {
-            // Handle when your app starts
+            AppCenter.Start("android=01a2a3a0-a469-4f0c-b867-c2a0bf991b53;" +
+                     "uwp={Your UWP App secret here};" +
+                     "ios={Your iOS App secret here}",
+                     typeof(Analytics), typeof(Crashes));
+            AppCenter.Start("android=01a2a3a0-a469-4f0c-b867-c2a0bf991b53;" + "uwp={Your UWP App secret here};" + "ios={Your iOS App secret here}", typeof(Analytics), typeof(Crashes));
+
         }
 
         protected override void OnSleep()
