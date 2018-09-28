@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forms.HelloWorld.Android", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forms.HelloWorld.iOS", "Forms.HelloWorld\Forms.HelloWorld.iOS\Forms.HelloWorld.iOS.csproj", "{BFC26253-58F6-4D0D-A259-2579B3E61B19}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forms.HelloWorld", "Forms.HelloWorld\Forms.HelloWorld\Forms.HelloWorld.csproj", "{DF3D06AD-42DC-4C22-B45C-6240364030A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Forms.HelloWorld", "Forms.HelloWorld\Forms.HelloWorld\Forms.HelloWorld.csproj", "{DF3D06AD-42DC-4C22-B45C-6240364030A4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloGlobe.Test", "HelloGlobe.Test\HelloGlobe.Test.csproj", "{8C4D2980-F890-4B00-8F41-0023D97E99B5}"
 EndProject
